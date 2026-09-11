@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Image Visualizer",
+  "version": "1.0.0",
+  "description": "Displays a real thumbnail of the image instead of the generic file icon within the GitHub file tree.",
+
+  "icons": {
+    "128": "icons/icon128.png",
+    "256": "icons/icon256.png",
+    "500": "icons/icon500.png"
+  },
+
+  "author": "d4nilpzz",
+  "homepage_url": "https://github.com/d4nilpzz/github-image-visualizer",
+
+  "default_locale": "en",
+
+  "permissions": [],
+  "host_permissions": ["https://github.com/*"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
