@@ -1,4 +1,4 @@
-![icon](icons/icon128.png)
+![icon](extension/icons/icon128.png)
 
 # GitHub Image Visualizer
 
@@ -13,6 +13,8 @@ A small Chrome extension that shows a real thumbnail of image files in the GitHu
 - Works with GitHub's dynamic navigation, no page reload needed
 - No extra permissions, it only runs on `github.com`
 
+![example](example.png)
+
 ## Instalation
 You can download this extension from chromewebstore.google.com
 
@@ -26,7 +28,7 @@ Search for `GitHub Image Visualizer`
    ```
 2. Open `chrome://extensions` in Chrome.
 3. Turn on **Developer mode** (top right).
-4. Click **Load unpacked** and select the project folder.
+4. Click **Load unpacked** and select the `extension` folder.
 
 ## Usage
 

@@ -10,14 +10,6 @@
     "500": "icons/icon500.png"
   },
 
-  "author": "d4nilpzz",
-  "homepage_url": "https://github.com/d4nilpzz/github-image-visualizer",
-
-  "default_locale": "en",
-
-  "permissions": [],
-  "host_permissions": ["https://github.com/*"],
-
   "content_scripts": [
     {
       "matches": ["https://github.com/*"],
